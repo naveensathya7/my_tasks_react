@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.task-create-section {
+  height: 100vh;
+  width: 40vw;
+  background-color: #131213;
+  color: #f1f5f9;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.top-heading {
+  color: #f3aa4e;
+  text-align: center;
+}
+.input-block {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+}
+.input-form {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.add-task-btn {
+  align-self: center;
+  margin-top: 20px;
+  background-color: #f3aa4e;
+  color: #f1f5f9;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.show-task-section {
+  background-color: #000000;
+  height: 100vh;
+  width: 60vw;
+  color: #f1f5f9;
+  padding: 30px;
+}
+.task-container {
+  display: flex;
+  background-color: #000000;
+  font-family: 'Roboto';
+}
+.tags-list {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+  width: 95%;
+  flex-wrap: wrap;
+}
+.task-list {
+  list-style-type: none;
+  padding-left: 0px;
+}

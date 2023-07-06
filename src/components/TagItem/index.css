@@ -1,0 +1,16 @@
+.list-item {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.tag-button {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  color: #f1f5f9;
+  outline: none;
+  border: 1px solid #f8f8f8;
+}
+.active-tag {
+  background-color: #f3aa4e;
+  border: none;
+}

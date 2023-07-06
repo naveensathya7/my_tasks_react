@@ -1,0 +1,17 @@
+.task-item {
+  background-color: #1a171d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.task-tag {
+  border-radius: 5px;
+  background-color: #f3aa4e;
+  width: 20%;
+  padding: 5px;
+  text-align: center;
+  font-size: 10px;
+}
